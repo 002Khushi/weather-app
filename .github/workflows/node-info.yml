@@ -1,5 +1,4 @@
 name: Print Node Info
-
 on:
   push:
     branches: [master]
