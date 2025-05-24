@@ -4,9 +4,9 @@ on:
   push:
     branches: [develop]
 
-    jobs:
-     say_hello:
-        runs-on: ubuntu-latest
-        steps :
-            - name: Print Greeting
-              ruun: echo "Hello, from Github Action!"
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps :
+       - name: Print Greeting
+         run: echo "Hello, from Github Action!"
